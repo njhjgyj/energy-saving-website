@@ -1,0 +1,562 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+#main-div1 {
+
+    /* background-color: red; */
+    width: 100%;
+
+}
+
+#main-div2 {
+
+    background-color: rgba(127, 255, 212, 0.233);
+    padding-left: 5%;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+
+}
+
+#div1 {
+
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+
+}
+
+#span-for-navbar1 {
+
+    /* background-color: red; */
+    width: 100%;
+
+}
+
+#nav-tag1 {
+
+    /* background-color: purple; */
+    display: flex;
+
+}
+
+#ol-tag1 {
+
+    /* display: flex; */
+    /* background-color: blue; */
+    width: 20%;
+    margin-left: -7px;
+
+}
+
+#ol-tag2 {
+
+    /* background-color: red; */
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    width: 100%;
+    margin-right: 5%;
+
+
+}
+
+ol {
+
+    list-style: none;
+    /* background-color: red; */
+    height: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+#li-tag7 {
+
+    background-color: rgb(253, 107, 107);
+    width: 10%;
+
+}
+
+#div2 {
+
+    margin-top: 2%;
+
+}
+
+#span-for-box1 {}
+
+#span-for-box1-buttons {
+
+    /* background-color: red; */
+    display: flex;
+    list-style: none;
+
+}
+
+#li-tag8 {
+
+    border-radius: 6px;
+    background-color: rgb(253, 107, 107);
+    transition: 0.3s;
+
+}
+
+
+
+.li-class2 {
+
+    /* background-color: red; */
+    width: 8%;
+    padding: 10px;
+    color: black;
+    transition: 0.3s;
+    border-radius: 6px;
+    margin-right: 10px;
+
+}
+
+.li-class2:hover {
+
+    background-color: rgb(253, 107, 107);
+    transition: 0.3s;
+
+}
+
+#div-for-box1-inner-boxes {
+
+    /* background-color: red; */
+    display: flex;
+
+}
+
+.span-class1-for-box1-inner-boxes {
+
+    /* background-color: blue; */
+    /* border: 1px solid rgb(169, 167, 167);border-radius: 6px; */
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    /* width: 16%; */
+    width: 200px;
+    box-shadow: 0 10px 10px rgba(9, 9, 15, 0.648);
+    background-color: white;
+    /* margin: 10px; */
+    color: black;
+    margin-right: 5px;
+
+}
+
+#span-for-box1-inner-box2 {
+
+    /* background-image: linear-gradient(rgb(135, 22, 242), rgb(125, 22, 125)); */
+    background-image: linear-gradient(150deg, rgb(135, 22, 242), rgb(213, 41, 213));
+    color: white;
+
+}
+
+#p-tag6 {
+
+    color: black;
+
+}
+
+#img-tag1 {
+
+    position: absolute;
+    right: 5%;
+    width: 20%;
+
+}
+
+#span-for-some-text1 {
+
+    display: inline-block;
+    margin-top: 4%;
+
+}
+
+.li-class1 {
+
+    /* background-color: red; */
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.li-class1:hover{
+
+    background-color: rgb(253, 107, 107);
+    transition: 0.3s;
+
+}
+
+#span-for-questionmark1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    height: 10vh;
+
+}
+
+
+/* @keyframes span-for-questionmark2-animation {
+
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+
+} */
+
+
+
+#span-for-questionmark2 {
+
+    background-color: blue;
+    background-image: radial-gradient(rgba(202, 139, 139, 0.545), rgb(26, 218, 26));
+    padding: 25px;
+    border-radius: 100%;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10%;
+    /* animation-name: span-for-questionmark2-animation;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+    border: 1px solid rgba(0, 0, 0, 0.415);
+
+}
+
+#p-tag-for-questionmark {
+
+    position: absolute;
+    color: rgb(15, 7, 7);
+    font-size: larger;
+    font-weight: 900;
+
+
+}
+
+#h3-tag4 {
+
+    /* background-color: red; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#div-tag-for-lists1 {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    /* background-color: red; */
+
+}
+
+#span-tag-for-lists1 {
+
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+#ul-tag1 {
+
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    /* background-color: blue; */
+
+}
+
+.li-class3 {
+
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-right: 2px solid rgb(95, 88, 88);
+    padding: 10px;
+    cursor: pointer;
+    list-style: none;
+
+}
+
+.img-tag2-class1 {
+
+    width: 30px;
+    border-radius: 100%;
+    /* position: absolute; */
+    margin-right: 15px;
+
+}
+
+
+@keyframes li-tag11-animation {
+
+    0% {
+        transition: 0.3s;
+        margin-top: 0px;
+    }
+
+    50% {
+        transition: 0.3s;
+        margin-bottom: 5px;
+    }
+
+    100% {
+        transition: 0.3s;
+        margin-top: 10px;
+    }
+
+}
+
+
+.li-class3:hover {
+
+    animation-name: li-tag11-animation;
+    animation-duration: 0.1s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+
+}
+
+#main-div4 {
+
+    /* background-color: red; */
+    margin-top: 8%;
+
+}
+
+#div-for-third-item1 {
+
+    padding: 10px;
+    /* background-color: blue; */
+    padding-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-for-third-item2 {
+
+    /* background-color: red; */
+    margin-left: 20%;
+
+}
+
+#p-tagd12 {
+
+    margin-top: 5%;
+
+}
+
+#span-for-third-item1 {}
+
+#img-tag6 {
+
+    width: 20%;
+    transform: rotateZ(10deg);
+    /* box-shadow: 0px 0px 20px 2px; */
+    /* background-color: rgba(127, 255, 212, 0.233); */
+    /* background-image: linear-gradient(150deg, rgb(213, 41, 213), rgb(135, 22, 242)); */
+    border-radius: 5%;
+
+}
+
+#span-for-third-item2 {
+
+    /* background-color: red; */
+
+}
+
+#span-for-third-item3 {
+
+    /* background-color: rebeccapurple; */
+    display: flex;
+    list-style: none;
+    margin-top: 5%;
+
+}
+
+.li-class4 {
+
+    /* background-color: red; */
+    margin-right: 20%;
+
+}
+
+.img-class2 {
+
+    width: 102%;
+    height: 18vh;
+    /* margin: 10px; */
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(9, 9, 15, 0.648);
+    transition: 0.5s ease-out;
+
+}
+
+.img-class3 {
+
+    box-shadow: none;
+
+}
+
+#img-tag7 {
+
+    transform: skewX(-20deg);
+    rotate: -10deg;
+
+}
+
+#img-tag7:hover {
+
+    transform: skewX(0deg);
+    rotate: 0deg;
+    transition: 0.5s ease-out;
+}
+
+#img-tag8 {
+
+    transform: skewY(2deg);
+    rotate: 5deg;
+
+}
+
+#img-tag8:hover {
+
+    transform: skewX(0deg);
+    rotate: 0deg;
+    transition: 0.5s ease-out;
+
+}
+
+#img-tag9 {
+
+    transform: skewX(-20deg);
+    rotate: -10deg;
+
+}
+
+#img-tag9:hover {
+
+    transform: skewX(0deg);
+    rotate: 0deg;
+    transition: 0.5s ease-out;
+
+}
+
+#main-div5 {
+
+    margin-top: 8%;
+
+}
+
+#div-for-fourth-item1 {
+
+    /* background-color: blue; */
+    display: flex;
+    justify-content: start;
+    margin-left: 8%;
+
+
+}
+
+#span-for-fourth-images {
+
+    /* background-color: red; */
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; */
+    /* width: 10%; */
+    margin-left: 10%;
+
+
+}
+
+#span-for-fourth-item1 {
+
+    /* background-color: red; */
+
+
+}
+
+#span-for-fourth-item2 {
+
+    /* background-color: blueviolet; */
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+#span-for-fourth-item3 {
+
+    /* background-color: red; */
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
+.img-class3 {
+
+    width: 15%;
+    height: 5vh;
+    border-radius: 100%;
+    margin-right: 10px;
+
+}
+
+.li-class5 {
+
+    /* background-color: red; */
+    /* padding: 10px; */
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+#div-for-fourth-item1 {
+
+    /* background-color: red; */
+
+}
